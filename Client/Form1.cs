@@ -56,8 +56,15 @@ namespace Client
 
         private void StartServerApp_Click(object sender, EventArgs e)
         {
-            IPAddress ip =  IPAddress.Parse(HostTextBox.Text);
-            server.Start(ip, int.Parse(PortTextBox.Text));
+            try
+            {
+                IPAddress ip = IPAddress.Parse(HostTextBox.Text);
+                server.Start(ip, int.Parse(PortTextBox.Text));
+            }
+            catch
+            {
+                MessageBox.Show("Сервер уже запущен");
+            }
         }
 
         private void StopServerApp_Click(object sender, EventArgs e)

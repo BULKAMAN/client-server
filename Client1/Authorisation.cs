@@ -74,6 +74,8 @@ namespace Client1
             checkPass.Visible = false;
             registrationBut.Visible = false;
             signInBut.Visible = true;
+            label7.Visible = false;
+            signInWithoutReg.Visible = false;
         }
 
         private void signUp_Click(object sender, EventArgs e)
