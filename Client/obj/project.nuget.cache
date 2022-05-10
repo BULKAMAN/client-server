@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "P0BL2FbmCW7Hj9OXW+xbwOhyWzAbkx3zK2dqZ5W2xqFmQdTLXuc6l7Lv3KmODJUD/Zmjyw/nRnU6lzqgnFSg2w==",
+  "success": true,
+  "projectFilePath": "B:\\Bulat\\Projects\\Client\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bulat\\.nuget\\packages\\blowfish\\1.0.2\\blowfish.1.0.2.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\simpletcp\\1.0.24\\simpletcp.1.0.24.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"SimpleTCP 1.0.24\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "SimpleTCP",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

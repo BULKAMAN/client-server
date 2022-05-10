@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{854527B7-B379-4D25-B5A1-4D97792B6C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client1", "Client1\Client1.csproj", "{66698B2F-B350-49B5-876F-574CB0CE8CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B0E851A-86B2-464A-84B9-D8A1C69A33FC}"
+	ProjectSection(SolutionItems) = preProject
+		RSAEncryptDecrypt.cs = RSAEncryptDecrypt.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{854527B7-B379-4D25-B5A1-4D97792B6C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854527B7-B379-4D25-B5A1-4D97792B6C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854527B7-B379-4D25-B5A1-4D97792B6C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854527B7-B379-4D25-B5A1-4D97792B6C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66698B2F-B350-49B5-876F-574CB0CE8CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66698B2F-B350-49B5-876F-574CB0CE8CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66698B2F-B350-49B5-876F-574CB0CE8CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66698B2F-B350-49B5-876F-574CB0CE8CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B44658-0135-4FB8-A0A8-FC265929C626}
+	EndGlobalSection
+EndGlobal
