@@ -4,7 +4,6 @@ B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.jso
 B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.dev.json
 B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\Client.dll
 B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\Client.pdb
-B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\SimpleTCP.dll
 B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.csproj.AssemblyReference.cache
 B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.Form1.resources
 B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.csproj.GenerateResource.cache
@@ -17,3 +16,4 @@ B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.dll
 B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.pdb
 B:\Bulat\Projects\Client\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache
 B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\BlowFish.dll
+B:\Bulat\Projects\Client\Client\bin\Debug\netcoreapp3.1\SuperSimpleTcp.dll

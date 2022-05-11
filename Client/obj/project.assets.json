@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0-windows7.0": {
       "BlowFish/1.0.2": {
         "type": "package",
         "compile": {
@@ -11,13 +11,13 @@
           "lib/netcoreapp3.0/BlowFish.dll": {}
         }
       },
-      "SimpleTCP/1.0.24": {
+      "SuperSimpleTcp/2.6.0.8": {
         "type": "package",
         "compile": {
-          "lib/net45/SimpleTCP.dll": {}
+          "lib/net5.0/SuperSimpleTcp.dll": {}
         },
         "runtime": {
-          "lib/net45/SimpleTCP.dll": {}
+          "lib/net5.0/SuperSimpleTcp.dll": {}
         }
       }
     }
@@ -42,23 +42,37 @@
         "lib/netstandard2.0/BlowFish.dll"
       ]
     },
-    "SimpleTCP/1.0.24": {
-      "sha512": "mQEKbXruksWRmKeUuID7S+Ltg092EiWXwnomnVYohkY+/rTRiIp4PUTE/bdBEj6oh1gIt0lp4l0GBlwtOhqU5w==",
+    "SuperSimpleTcp/2.6.0.8": {
+      "sha512": "s+WrolJgoYLkd3TF4wgTrmfuBSMuzEWYUT5hBXMnM8fpvLDDcH7pMOsxaH9yI1IXUiLf7ynNkIwU8/XlPOk0Eg==",
       "type": "package",
-      "path": "simpletcp/1.0.24",
+      "path": "supersimpletcp/2.6.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/SimpleTCP.dll",
-        "simpletcp.1.0.24.nupkg.sha512",
-        "simpletcp.nuspec"
+        "LICENSE.md",
+        "icon.png",
+        "lib/net461/SimpleTcp.xml",
+        "lib/net461/SuperSimpleTcp.dll",
+        "lib/net48/SuperSimpleTcp.dll",
+        "lib/net5.0/SimpleTcp.xml",
+        "lib/net5.0/SuperSimpleTcp.dll",
+        "lib/net6.0/SimpleTcp.xml",
+        "lib/net6.0/SuperSimpleTcp.dll",
+        "lib/netcoreapp3.1/SimpleTcp.xml",
+        "lib/netcoreapp3.1/SuperSimpleTcp.dll",
+        "lib/netstandard2.0/SimpleTcp.xml",
+        "lib/netstandard2.0/SuperSimpleTcp.dll",
+        "lib/netstandard2.1/SimpleTcp.xml",
+        "lib/netstandard2.1/SuperSimpleTcp.dll",
+        "supersimpletcp.2.6.0.8.nupkg.sha512",
+        "supersimpletcp.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0-windows7.0": [
       "BlowFish >= 1.0.2",
-      "SimpleTCP >= 1.0.24"
+      "SuperSimpleTcp >= 2.6.0.8"
     ]
   },
   "packageFolders": {
@@ -78,15 +92,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "projectReferences": {}
         }
       },
@@ -97,16 +111,16 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "dependencies": {
           "BlowFish": {
             "target": "Package",
             "version": "[1.0.2, )"
           },
-          "SimpleTCP": {
+          "SuperSimpleTcp": {
             "target": "Package",
-            "version": "[1.0.24, )"
+            "version": "[2.6.0.8, )"
           }
         },
         "imports": [
@@ -119,6 +133,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.16, 5.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -130,17 +162,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"SimpleTCP 1.0.24\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "SimpleTCP",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

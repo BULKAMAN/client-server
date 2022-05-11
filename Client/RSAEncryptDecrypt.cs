@@ -16,7 +16,7 @@ namespace Crypt
             {
                 rsa.FromXmlString(key);
                 byte[] data = Encoding.UTF8.GetBytes(text);
-                byte[] encryptedData = rsa.Encrypt(data, false);
+                byte[] encryptedData = rsa.Encrypt(data, true);
                 return Convert.ToBase64String(encryptedData);
             }
         }

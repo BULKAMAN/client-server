@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M6VPXkLuKTjL09EG+3fTFBfXStERCGLGrTArxVxtzWftWcResU6X+oE7pWUR/+AEH4RQDazPCfisDxXW0tT/Cw==",
+  "dgSpecHash": "Tv/N1Xv1LNZeV6e0EjnVRRQLTGjA8Ef5Sqs13/FCOU70O95NOBgJPq9qbqS5ajQi2G9y2I1jGgyKjh+qwVMddA==",
   "success": true,
   "projectFilePath": "B:\\Bulat\\Projects\\Client\\Client1\\Client1.csproj",
   "expectedPackageFiles": [
@@ -12,19 +12,24 @@
     "C:\\Users\\bulat\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\bulat\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\bulat\\.nuget\\packages\\simpletcp\\1.0.24\\simpletcp.1.0.24.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\supersimpletcp\\2.6.0.8\\supersimpletcp.2.6.0.8.nupkg.sha512",
     "C:\\Users\\bulat\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\bulat\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\bulat\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\bulat\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\bulat\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"SimpleTCP 1.0.24\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"SimpleTCP 1.0.24\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "SimpleTCP",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     }
   ]

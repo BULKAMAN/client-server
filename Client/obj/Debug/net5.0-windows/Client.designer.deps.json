@@ -1,0 +1,43 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlowFish/1.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/BlowFish.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "SuperSimpleTcp/2.6.0.8": {
+        "runtime": {
+          "lib/net5.0/SuperSimpleTcp.dll": {
+            "assemblyVersion": "2.6.0.8",
+            "fileVersion": "2.6.0.8"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlowFish/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNp3R53lsEa2e4X5y1w8C3uswPlrdqTB3HpHool6csWbzDARS/jUiYpTQtSOMenDpWJmdn7bb1BaFSy7IAVgsA==",
+      "path": "blowfish/1.0.2",
+      "hashPath": "blowfish.1.0.2.nupkg.sha512"
+    },
+    "SuperSimpleTcp/2.6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s+WrolJgoYLkd3TF4wgTrmfuBSMuzEWYUT5hBXMnM8fpvLDDcH7pMOsxaH9yI1IXUiLf7ynNkIwU8/XlPOk0Eg==",
+      "path": "supersimpletcp/2.6.0.8",
+      "hashPath": "supersimpletcp.2.6.0.8.nupkg.sha512"
+    }
+  }
+}

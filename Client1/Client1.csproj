@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BlowFish" Version="1.0.2" />
     <PackageReference Include="SimpleTCP" Version="1.0.24" />
+    <PackageReference Include="SuperSimpleTcp" Version="2.6.0.8" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
